@@ -295,6 +295,9 @@
     (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/97699add-48a0-407a-9e98-4a2dd2195d52"
       (reference "#PWR0151") (unit 1) (value "GND") (footprint "")
     )
+    (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/3e09c136-7347-4670-891c-a41abbef994d"
+      (reference "#PWR0152") (unit 1) (value "GND") (footprint "")
+    )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/96b76446-b00f-4464-8a77-b368b64a4a18"
       (reference "#PWR0154") (unit 1) (value "GND") (footprint "")
     )
@@ -568,6 +571,9 @@
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/d792de4e-752a-4ba4-beda-7f74dd2e8fed"
       (reference "L5") (unit 1) (value "L_Small") (footprint "Inductor_SMD:L_Wuerth_MAPI-2510")
     )
+    (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/a86115e2-4072-484f-a773-41954675fec6"
+      (reference "R1") (unit 1) (value "6.04k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
     (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/3ce3765a-6aa0-4e44-a436-eec4f9cc0a02"
       (reference "R2") (unit 1) (value "240") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
@@ -673,6 +679,9 @@
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/a37e8de2-9f6d-4897-bef5-4b280838773f"
       (reference "TP8") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
+    (path "/690f8109-73f4-43d8-86c5-282aaeaec683/f808159c-0813-425a-bbf3-801478057126"
+      (reference "U1") (unit 1) (value "AXP203") (footprint "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.2x4.2mm_ThermalVias")
+    )
     (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/8507112d-0d0a-405b-a259-e2df675ef1e9"
       (reference "U2") (unit 1) (value "V3s") (footprint "allwinner:QFP-128_14x14_Pitch0.4mm")
     )
@@ -714,9 +723,6 @@
     )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/30bd1e60-90cc-462d-8d97-50847b397c90"
       (reference "U7") (unit 1) (value "AP61100") (footprint "Package_TO_SOT_SMD:SOT-563")
-    )
-    (path "/690f8109-73f4-43d8-86c5-282aaeaec683/8937c5a1-e6ff-46a3-b037-5b93a29dd35e"
-      (reference "U300") (unit 1) (value "AXP173") (footprint "Package_DFN_QFN:VQFN-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm_ThermalVias")
     )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/169ac644-aa1c-4a0a-b4d9-070f57b9928e"
       (reference "U400") (unit 1) (value "MCP1640CH") (footprint "Package_TO_SOT_SMD:SOT-23-6")
