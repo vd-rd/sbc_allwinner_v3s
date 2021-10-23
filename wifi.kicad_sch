@@ -25,40 +25,45 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "Antenna_Shield_0_1"
-        (arc (start 0 -2.667) (end -0.508 -1.143) (radius (at -0.0254 -1.8542) (length 0.8128) (angles -88.2 124.2))
-          (stroke (width 0)) (fill (type none))
+        (arc (start -0.508 -1.143) (mid -0.8429 -2.1194) (end 0 -2.667)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
-        (arc (start 0 -2.667) (end 0.508 -1.143) (radius (at 0.0254 -1.8542) (length 0.8128) (angles -91.8 55.8))
-          (stroke (width 0)) (fill (type none))
+        (arc (start 0 -2.667) (mid 0.7989 -2.1052) (end 0.508 -1.143)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
-        (circle (center 0.762 -1.905) (radius 0.1778) (stroke (width 0)) (fill (type outline)))
         (polyline
           (pts
             (xy 0 -2.54)
             (xy 0 0)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 0 5.08)
             (xy 0 -3.81)
           )
-          (stroke (width 0.254)) (fill (type none))
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 0.762 -1.905)
             (xy 2.54 -1.905)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 2.54 -2.54)
             (xy 2.54 -1.905)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
@@ -66,7 +71,11 @@
             (xy 0 0)
             (xy -1.27 5.08)
           )
-          (stroke (width 0.254)) (fill (type none))
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (circle (center 0.762 -1.905) (radius 0.1778) (stroke (width 0))           (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type outline))
         )
       )
       (symbol "Antenna_Shield_1_1"
@@ -108,14 +117,16 @@
             (xy -1.524 -0.508)
             (xy 1.524 -0.508)
           )
-          (stroke (width 0.3302)) (fill (type none))
+          (stroke (width 0.3302) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy -1.524 0.508)
             (xy 1.524 0.508)
           )
-          (stroke (width 0.3048)) (fill (type none))
+          (stroke (width 0.3048) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "C_Small_1_1"
@@ -152,76 +163,89 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "R_Pack04_0_1"
+        (rectangle (start -6.35 -2.413) (end 3.81 2.413)
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type background))
+        )
         (rectangle (start -5.715 1.905) (end -4.445 -1.905)
-          (stroke (width 0.254)) (fill (type none))
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (rectangle (start -3.175 1.905) (end -1.905 -1.905)
-          (stroke (width 0.254)) (fill (type none))
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (rectangle (start -0.635 1.905) (end 0.635 -1.905)
-          (stroke (width 0.254)) (fill (type none))
-        )
-        (rectangle (start 1.905 1.905) (end 3.175 -1.905)
-          (stroke (width 0.254)) (fill (type none))
-        )
-        (rectangle (start -6.35 -2.413) (end 3.81 2.413)
-          (stroke (width 0.254)) (fill (type background))
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy -5.08 -2.54)
             (xy -5.08 -1.905)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy -5.08 1.905)
             (xy -5.08 2.54)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy -2.54 -2.54)
             (xy -2.54 -1.905)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy -2.54 1.905)
             (xy -2.54 2.54)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 0 -2.54)
             (xy 0 -1.905)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 0 1.905)
             (xy 0 2.54)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 2.54 -2.54)
             (xy 2.54 -1.905)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 2.54 1.905)
             (xy 2.54 2.54)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (rectangle (start 1.905 1.905) (end 3.175 -1.905)
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "R_Pack04_1_1"
@@ -283,7 +307,8 @@
       )
       (symbol "R_Small_0_1"
         (rectangle (start -0.762 1.778) (end 0.762 -1.778)
-          (stroke (width 0.2032)) (fill (type none))
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "R_Small_1_1"
@@ -326,7 +351,8 @@
             (xy -1.27 -1.27)
             (xy 0 -1.27)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "GND_1_1"
@@ -351,7 +377,8 @@
       )
       (symbol "RTL8723BS_0_1"
         (rectangle (start -5.08 -1.27) (end 11.43 -111.76)
-          (stroke (width 0.1524)) (fill (type background))
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "RTL8723BS_1_1"
@@ -865,7 +892,7 @@
     (property "Reference" "U800" (id 0) (at 137.8713 39.0965 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "AP6255" (id 1) (at 146.7613 39.3316 0)
+    (property "Value" "RTL8723BS" (id 1) (at 146.7613 39.3316 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "sdio:lga44_12x12mm_P0.9" (id 2) (at 143.51 40.64 0)
