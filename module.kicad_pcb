@@ -7260,7 +7260,6 @@
   (gr_line (start 143.6 82.2) (end 130 68.6) (layer "F.SilkS") (width 0.15) (tstamp 6f7cae8e-b6f2-418d-8b74-771b3b09db0b))
   (gr_poly
     (pts
-
       (xy 140 91.5)
       (xy 160 91.5)
       (xy 160 79.5)
