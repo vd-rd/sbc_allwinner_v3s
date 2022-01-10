@@ -322,6 +322,15 @@
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/8e9734d4-7e4b-4602-82a5-5fe21bc02c99"
       (reference "#PWR0159") (unit 1) (value "GND") (footprint "")
     )
+    (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/7480ad34-c527-4800-a136-81a8681e1ed7"
+      (reference "#PWR0160") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/18d83288-24ff-4194-b2fe-1f8134c2f192"
+      (reference "#PWR0161") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/0bf18121-9729-455f-9d6a-e42be6d1d932"
+      (reference "#PWR0162") (unit 1) (value "GND") (footprint "")
+    )
     (path "/4a0bde20-7e73-4eac-b453-ea1bc41c906d/9890ca7e-4760-40e2-936d-aab7c7bcc3bd"
       (reference "AE1") (unit 1) (value "Antenna_Shield") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
     )
@@ -585,6 +594,12 @@
     )
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/182a8153-3456-4c1e-8b8e-76b939346d75"
       (reference "J4") (unit 1) (value "USB_B_Micro") (footprint "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal")
+    )
+    (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/cb38e51c-b267-4be1-9813-2fc12b6a3e12"
+      (reference "J5") (unit 1) (value "Conn_2Rows-45Pins_Shielded") (footprint "Connector_FFC-FPC:Hirose_FH12-45S-0.5SH_1x45-1MP_P0.50mm_Horizontal")
+    )
+    (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/c21339b3-888b-409d-a8c8-f728bc3805aa"
+      (reference "J6") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical")
     )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/ba1b9f5e-8629-4528-b911-75a1019aae55"
       (reference "L1") (unit 1) (value "4.7uH") (footprint "Inductor_SMD:L_TDK_NLV25_2.5x2.0mm")
