@@ -322,7 +322,7 @@
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/8e9734d4-7e4b-4602-82a5-5fe21bc02c99"
       (reference "#PWR0159") (unit 1) (value "GND") (footprint "")
     )
-    (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/7480ad34-c527-4800-a136-81a8681e1ed7"
+    (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/1b183bd4-9366-47de-9689-5616f6540e2d"
       (reference "#PWR0160") (unit 1) (value "GND") (footprint "")
     )
     (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/18d83288-24ff-4194-b2fe-1f8134c2f192"
@@ -639,6 +639,9 @@
     )
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/182a8153-3456-4c1e-8b8e-76b939346d75"
       (reference "J4") (unit 1) (value "USB_B_Micro") (footprint "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal")
+    )
+    (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/49ec71cb-3e56-4062-9d4a-de72787a57c5"
+      (reference "J5") (unit 1) (value "Conn_02x22_Odd_Even") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x22_P1.27mm_Vertical")
     )
     (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/c21339b3-888b-409d-a8c8-f728bc3805aa"
       (reference "J6") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical")
