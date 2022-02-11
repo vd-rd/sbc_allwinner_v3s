@@ -511,9 +511,6 @@
     (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/a888ab93-1980-44b3-8a1b-a7c160e6d819"
       (reference "C54") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/07997130-666b-4db6-8826-7a166dfb0651"
-      (reference "C288") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/ab6c1462-e7bb-427f-a80f-98d998b54d97"
       (reference "C307") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
