@@ -343,6 +343,9 @@
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/ac8e552a-62c5-412d-a3ed-730a8c6bd7a8"
       (reference "#PWR0166") (unit 1) (value "GND") (footprint "")
     )
+    (path "/690f8109-73f4-43d8-86c5-282aaeaec683/a88013cc-b57a-4b3f-83d9-668683ffcdfa"
+      (reference "#PWR0167") (unit 1) (value "GND") (footprint "")
+    )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/635c5879-0090-4c9c-92bb-a932fbb40409"
       (reference "#PWR0168") (unit 1) (value "GND") (footprint "")
     )
@@ -671,7 +674,7 @@
       (reference "R3") (unit 1) (value "30m") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/0e8f7213-a2ec-457f-95cd-b0822599b8da"
-      (reference "R4") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R4") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/e48d5987-c0ce-41c8-836d-f9c5fa46eeb2"
       (reference "R5") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -759,6 +762,9 @@
     )
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/54ef2407-f8a0-4082-87bc-bb3161b4de8b"
       (reference "SW2") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_EVQP7C")
+    )
+    (path "/690f8109-73f4-43d8-86c5-282aaeaec683/3fa83939-c66d-4c96-b46e-62307c407724"
+      (reference "TH1") (unit 1) (value "Thermistor_NTC") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/2a186566-9c2d-4973-b44d-f6cc9c8f7b2c"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
