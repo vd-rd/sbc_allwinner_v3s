@@ -703,6 +703,9 @@
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/31efdc65-f1b2-4ee3-9132-a3e5ed2b1eaa"
       (reference "R9") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/690f8109-73f4-43d8-86c5-282aaeaec683/a939f359-12fd-4fec-b219-1311b835b030"
+      (reference "R10") (unit 1) (value "0/dnp") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/50c017c3-a153-4f30-8952-d1fe92e15438"
       (reference "R12") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
@@ -804,6 +807,15 @@
     )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/c629111f-c954-4932-80df-378a049a0b33"
       (reference "TP9") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/690f8109-73f4-43d8-86c5-282aaeaec683/a7745231-17bc-40d7-9399-8e517e909d3a"
+      (reference "TP10") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/690f8109-73f4-43d8-86c5-282aaeaec683/905c4e3f-ee26-445f-ad77-91cd0535e121"
+      (reference "TP11") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/690f8109-73f4-43d8-86c5-282aaeaec683/a2e29646-5a6b-48cc-86c0-b4fe7250af6c"
+      (reference "TP12") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/62e12292-d904-4e6b-9325-fbe480d6d130"
       (reference "U1") (unit 1) (value "IS31FL3193") (footprint "Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.7x2.5mm")
