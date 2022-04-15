@@ -352,6 +352,9 @@
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/1df26d6e-9781-49cd-b12e-74603661bb4a"
       (reference "#PWR0169") (unit 1) (value "GND") (footprint "")
     )
+    (path "/690f8109-73f4-43d8-86c5-282aaeaec683/bdd5cabe-db62-41b8-aef0-e212997e6908"
+      (reference "#PWR0170") (unit 1) (value "GND") (footprint "")
+    )
     (path "/4a0bde20-7e73-4eac-b453-ea1bc41c906d/9890ca7e-4760-40e2-936d-aab7c7bcc3bd"
       (reference "AE1") (unit 1) (value "Antenna_Shield") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
     )
@@ -528,6 +531,9 @@
     )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/764d018a-eccb-47f7-98aa-b6b928f37ef0"
       (reference "C58") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/690f8109-73f4-43d8-86c5-282aaeaec683/b0b0969f-60f9-48d0-9fb7-0fd9b1b264c0"
+      (reference "C59") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/ab6c1462-e7bb-427f-a80f-98d998b54d97"
       (reference "C307") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -709,6 +715,9 @@
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/a939f359-12fd-4fec-b219-1311b835b030"
       (reference "R10") (unit 1) (value "0/dnp") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/c01aee9a-273a-4924-80c9-f665966335b3"
+      (reference "R11") (unit 1) (value "10M") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/50c017c3-a153-4f30-8952-d1fe92e15438"
       (reference "R12") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
@@ -772,8 +781,17 @@
     (path "/4a0bde20-7e73-4eac-b453-ea1bc41c906d/8f5b129f-dcbc-44e6-88d0-0cef5da73dec"
       (reference "R802") (unit 1) (value "22") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/4a0bde20-7e73-4eac-b453-ea1bc41c906d/63ff7ed0-b688-4aa4-8add-203d538a8adc"
-      (reference "RN1") (unit 1) (value "47k") (footprint "Resistor_SMD:R_Array_Concave_4x0402")
+    (path "/4a0bde20-7e73-4eac-b453-ea1bc41c906d/98d4db09-3cf9-4027-a03e-6011e91fc65b"
+      (reference "RN2") (unit 1) (value "100k") (footprint "Resistor_SMD:R_Array_Concave_4x0402")
+    )
+    (path "/4a0bde20-7e73-4eac-b453-ea1bc41c906d/44c798d8-a538-4cf1-aed3-fdd41a578787"
+      (reference "RN2") (unit 2) (value "100k") (footprint "Resistor_SMD:R_Array_Concave_4x0402")
+    )
+    (path "/4a0bde20-7e73-4eac-b453-ea1bc41c906d/10a01f37-aff7-42ae-9ccd-ccb5d81dd3ca"
+      (reference "RN2") (unit 3) (value "100k") (footprint "Resistor_SMD:R_Array_Concave_4x0402")
+    )
+    (path "/4a0bde20-7e73-4eac-b453-ea1bc41c906d/c6d4e0d1-812c-4d3d-be73-d9ffe01e96ca"
+      (reference "RN2") (unit 4) (value "100k") (footprint "Resistor_SMD:R_Array_Concave_4x0402")
     )
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/c4b35efc-f0b2-40eb-a917-1ee7e5130c60"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_EVQP7C")
