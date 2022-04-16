@@ -1,5 +1,7 @@
 # Allwinner V3s SBC
 
+![board_render](/assets/front.png)
+
 This board embeds a SIP (single core 1GHz Cortex-A7 with 64MB DDR2) with AXP203 PMIC, IO headers and microSD/eMMC storage.
 
 Board overview (draft):
