@@ -841,6 +841,9 @@
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/62e12292-d904-4e6b-9325-fbe480d6d130"
       (reference "U1") (unit 1) (value "IS31FL3193") (footprint "Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.7x2.5mm")
     )
+    (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/d297fc8b-a6ca-425d-b7b4-1be154861adc"
+      (reference "U2") (unit 1) (value "MX25R3235FM2xx1") (footprint "Package_SO:SOP-8_5.28x5.23mm_P1.27mm")
+    )
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/2eeb345b-0ab7-444c-b6f6-7fef5bb40795"
       (reference "U3") (unit 1) (value "USBLC6-2P6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
