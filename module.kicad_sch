@@ -364,6 +364,9 @@
     (path "/4a0bde20-7e73-4eac-b453-ea1bc41c906d/a02705d4-b485-496f-bdad-4b176340793f"
       (reference "#PWR0173") (unit 1) (value "GND") (footprint "")
     )
+    (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/d65918e8-40a6-4d33-ba1a-8105d63d065c"
+      (reference "#PWR0174") (unit 1) (value "GND") (footprint "")
+    )
     (path "/4a0bde20-7e73-4eac-b453-ea1bc41c906d/9890ca7e-4760-40e2-936d-aab7c7bcc3bd"
       (reference "AE1") (unit 1) (value "Antenna_Shield") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
     )
@@ -552,6 +555,9 @@
     )
     (path "/4a0bde20-7e73-4eac-b453-ea1bc41c906d/a8504891-5e0f-4c84-80b9-6a76e0f8d35c"
       (reference "C62") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/ad3ed8da-b5ca-4bf2-af43-212ec7c8a3f7"
+      (reference "C63") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/ab6c1462-e7bb-427f-a80f-98d998b54d97"
       (reference "C307") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -757,6 +763,9 @@
     (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/0d1a2595-58de-456b-9f66-bb8850a96f13"
       (reference "R18") (unit 1) (value "200k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/0e649f64-db4e-4b68-957d-cc2cb4c1e51d"
+      (reference "R19") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/6bedace8-ef55-463f-9dae-ccafc24551ce"
       (reference "R21") (unit 1) (value "200k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
@@ -876,6 +885,9 @@
     )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/cf6e53f7-3877-4968-b93d-114dda6a1e43"
       (reference "U5") (unit 1) (value "AP61100") (footprint "Package_TO_SOT_SMD:SOT-563")
+    )
+    (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/a3351d2a-67c1-4651-a71d-18da42b7a66a"
+      (reference "U6") (unit 1) (value "PCA6408A") (footprint "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm")
     )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/30bd1e60-90cc-462d-8d97-50847b397c90"
       (reference "U7") (unit 1) (value "AP61100") (footprint "Package_TO_SOT_SMD:SOT-563")
