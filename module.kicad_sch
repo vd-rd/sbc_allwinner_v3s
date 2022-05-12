@@ -871,6 +871,9 @@
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/a2e29646-5a6b-48cc-86c0-b4fe7250af6c"
       (reference "TP12") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
+    (path "/690f8109-73f4-43d8-86c5-282aaeaec683/e3cdc607-1b7d-4ada-9dfb-00adbbe167a7"
+      (reference "TP13") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/62e12292-d904-4e6b-9325-fbe480d6d130"
       (reference "U1") (unit 1) (value "IS31FL3193") (footprint "Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.7x2.5mm")
     )
