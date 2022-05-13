@@ -367,6 +367,9 @@
     (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/d65918e8-40a6-4d33-ba1a-8105d63d065c"
       (reference "#PWR0174") (unit 1) (value "GND") (footprint "")
     )
+    (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/739e996a-0585-4ea8-a763-89349153d941"
+      (reference "#PWR0175") (unit 1) (value "GND") (footprint "")
+    )
     (path "/4a0bde20-7e73-4eac-b453-ea1bc41c906d/9890ca7e-4760-40e2-936d-aab7c7bcc3bd"
       (reference "AE1") (unit 1) (value "Antenna_Shield") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
     )
@@ -558,6 +561,12 @@
     )
     (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/ad3ed8da-b5ca-4bf2-af43-212ec7c8a3f7"
       (reference "C63") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/f2d436ae-91d9-4405-8d23-b4ea1de7619f"
+      (reference "C64") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/e9a3b5a6-fd0f-42a9-8ba3-efada85361c7"
+      (reference "C65") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/ab6c1462-e7bb-427f-a80f-98d998b54d97"
       (reference "C307") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -766,11 +775,17 @@
     (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/0e649f64-db4e-4b68-957d-cc2cb4c1e51d"
       (reference "R19") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/6fb714cb-3289-4453-a74f-b65d5e8bac4e"
+      (reference "R20") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/6bedace8-ef55-463f-9dae-ccafc24551ce"
       (reference "R21") (unit 1) (value "200k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/528e121e-e9c3-4995-93a9-410ea06845e1"
       (reference "R22") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/abe3b170-4c03-4692-8bc7-9f634fcc2353"
+      (reference "R23") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/c1f4c175-8c68-4a15-b1f2-bfafe38366d1"
       (reference "R26") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
