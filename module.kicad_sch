@@ -370,6 +370,9 @@
     (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/739e996a-0585-4ea8-a763-89349153d941"
       (reference "#PWR0175") (unit 1) (value "GND") (footprint "")
     )
+    (path "/690f8109-73f4-43d8-86c5-282aaeaec683/77bb1e8b-8839-4798-b188-deaefd7fbfc8"
+      (reference "#PWR0176") (unit 1) (value "GND") (footprint "")
+    )
     (path "/4a0bde20-7e73-4eac-b453-ea1bc41c906d/9890ca7e-4760-40e2-936d-aab7c7bcc3bd"
       (reference "AE1") (unit 1) (value "Antenna_Shield") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
     )
@@ -661,6 +664,9 @@
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/150bdd23-a74d-4629-bd67-a58cc1641e71"
       (reference "D7") (unit 1) (value "3V3") (footprint "Diode_SMD:D_SOD-923")
     )
+    (path "/690f8109-73f4-43d8-86c5-282aaeaec683/508c709e-6d57-4a95-8f93-ec6d38b39b63"
+      (reference "D8") (unit 1) (value "LED_Small") (footprint "LED_SMD:LED_0603_1608Metric")
+    )
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/54c76690-f51e-4446-811f-daa7f5a406c9"
       (reference "D9") (unit 1) (value "5V") (footprint "Diode_SMD:D_SOD-923")
     )
@@ -689,7 +695,7 @@
       (reference "J2") (unit 1) (value "Conn_02x18_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical")
     )
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/df8158bc-597f-4f13-87f4-7d38545f9016"
-      (reference "J3") (unit 1) (value "Conn_01x08") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x04_P1.27mm_Vertical")
+      (reference "J3") (unit 1) (value "eth1") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Vertical")
     )
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/182a8153-3456-4c1e-8b8e-76b939346d75"
       (reference "J4") (unit 1) (value "USB_B_Micro") (footprint "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal")
@@ -699,6 +705,9 @@
     )
     (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/c21339b3-888b-409d-a8c8-f728bc3805aa"
       (reference "J6") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical")
+    )
+    (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/f65349ef-9d52-4ead-af98-8afaecbcaa66"
+      (reference "J7") (unit 1) (value "eth2") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Vertical")
     )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/ba1b9f5e-8629-4528-b911-75a1019aae55"
       (reference "L1") (unit 1) (value "4.7uH") (footprint "Inductor_SMD:L_Wuerth_MAPI-2512")
@@ -786,6 +795,9 @@
     )
     (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/abe3b170-4c03-4692-8bc7-9f634fcc2353"
       (reference "R23") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/690f8109-73f4-43d8-86c5-282aaeaec683/c1dd5ce6-24e5-4ea5-be11-338e25c47456"
+      (reference "R24") (unit 1) (value "180") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/c1f4c175-8c68-4a15-b1f2-bfafe38366d1"
       (reference "R26") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
