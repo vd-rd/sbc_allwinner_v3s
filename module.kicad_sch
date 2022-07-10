@@ -661,6 +661,9 @@
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/150bdd23-a74d-4629-bd67-a58cc1641e71"
       (reference "D7") (unit 1) (value "3V3") (footprint "Diode_SMD:D_SOD-923")
     )
+    (path "/690f8109-73f4-43d8-86c5-282aaeaec683/9797a323-76d4-4a61-8fb2-acb76fdd4855"
+      (reference "D8") (unit 1) (value "LED_Small") (footprint "LED_SMD:LED_0603_1608Metric")
+    )
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/54c76690-f51e-4446-811f-daa7f5a406c9"
       (reference "D9") (unit 1) (value "5V") (footprint "Diode_SMD:D_SOD-923")
     )
@@ -682,26 +685,26 @@
     (path "/24719d36-f09f-47ee-a6eb-97bcea753523"
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
     )
-    (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/efc8f090-8fad-44aa-924a-37ad11b8c286"
-      (reference "J1") (unit 1) (value "Micro_SD_Card_Det") (footprint "gct:MEM20610118800A")
-    )
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/252d6d5a-e3ab-4b30-9888-6b88ad2fd696"
-      (reference "J2") (unit 1) (value "Conn_02x18_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical")
+      (reference "J1") (unit 1) (value "Conn_02x18_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical")
     )
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/df8158bc-597f-4f13-87f4-7d38545f9016"
       (reference "J3") (unit 1) (value "eth1") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Vertical")
-    )
-    (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/182a8153-3456-4c1e-8b8e-76b939346d75"
-      (reference "J4") (unit 1) (value "USB_B_Micro") (footprint "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal")
-    )
-    (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/49ec71cb-3e56-4062-9d4a-de72787a57c5"
-      (reference "J5") (unit 1) (value "Conn_02x22_Odd_Even") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x22_P1.27mm_Vertical")
     )
     (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/c21339b3-888b-409d-a8c8-f728bc3805aa"
       (reference "J6") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical")
     )
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/f65349ef-9d52-4ead-af98-8afaecbcaa66"
       (reference "J7") (unit 1) (value "eth2") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Vertical")
+    )
+    (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/182a8153-3456-4c1e-8b8e-76b939346d75"
+      (reference "J100") (unit 1) (value "USB_B_Micro") (footprint "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal")
+    )
+    (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/efc8f090-8fad-44aa-924a-37ad11b8c286"
+      (reference "J101") (unit 1) (value "Micro_SD_Card_Det") (footprint "gct:MEM20610118800A")
+    )
+    (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/49ec71cb-3e56-4062-9d4a-de72787a57c5"
+      (reference "J300") (unit 1) (value "Conn_02x22_Odd_Even") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x22_P1.27mm_Vertical")
     )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/ba1b9f5e-8629-4528-b911-75a1019aae55"
       (reference "L1") (unit 1) (value "4.7uH") (footprint "Inductor_SMD:L_Wuerth_MAPI-2512")
@@ -790,6 +793,9 @@
     (path "/45a70247-17ff-4317-92d4-90cb4b4e4a35/abe3b170-4c03-4692-8bc7-9f634fcc2353"
       (reference "R23") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/690f8109-73f4-43d8-86c5-282aaeaec683/34f0b921-1cb9-40e0-a557-96f7ed0c30bb"
+      (reference "R24") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
     (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/c1f4c175-8c68-4a15-b1f2-bfafe38366d1"
       (reference "R26") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
@@ -844,10 +850,10 @@
     (path "/4a0bde20-7e73-4eac-b453-ea1bc41c906d/c6d4e0d1-812c-4d3d-be73-d9ffe01e96ca"
       (reference "RN2") (unit 4) (value "33k") (footprint "Resistor_SMD:R_Array_Concave_4x0402")
     )
-    (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/c4b35efc-f0b2-40eb-a917-1ee7e5130c60"
+    (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/54ef2407-f8a0-4082-87bc-bb3161b4de8b"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_EVQP7C")
     )
-    (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/54ef2407-f8a0-4082-87bc-bb3161b4de8b"
+    (path "/a7990867-0d95-4b8a-9a5f-f4fc9be5fa90/c4b35efc-f0b2-40eb-a917-1ee7e5130c60"
       (reference "SW2") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_EVQP7C")
     )
     (path "/690f8109-73f4-43d8-86c5-282aaeaec683/3fa83939-c66d-4c96-b46e-62307c407724"
