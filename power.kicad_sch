@@ -2980,12 +2980,6 @@
 		(uuid "a934eaa8-37a1-4609-a810-25a8123be90c")
 	)
 	(junction
-		(at 205.74 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac2c8a83-0c37-4249-ae0b-529215c2cd5c")
-	)
-	(junction
 		(at 48.26 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3407,23 +3401,13 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 90.17) (xy 205.74 90.17)
+			(xy 195.58 90.17) (xy 214.63 90.17)
 		)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(uuid "244f788f-a154-47e2-bf7a-a86f6991ab99")
-	)
-	(wire
-		(pts
-			(xy 205.74 90.17) (xy 214.63 90.17)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "244f788f-a154-47e2-bf7a-a86f6991ab9a")
 	)
 	(wire
 		(pts
@@ -5057,16 +5041,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 125.73) (xy 186.69 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f46624db-b92b-46ac-8a5e-4b09ed29d014")
-	)
-	(wire
-		(pts
 			(xy 57.15 54.61) (xy 138.43 54.61)
 		)
 		(stroke
@@ -5222,28 +5196,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IPS"
-		(shape input)
-		(at 186.69 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "15453f96-2693-4ffa-a332-1d0ed6d2540d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.0921 125.8094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6020,7 +5972,7 @@
 	)
 	(global_label "+3V3"
 		(shape output)
-		(at 214.63 90.17 0)
+		(at 92.71 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6030,7 +5982,7 @@
 		)
 		(uuid "b189b2b3-dc66-4131-b43b-b713d0f4567b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.1231 90.0906 0)
+			(at 100.2031 166.2906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6284,7 +6236,7 @@
 	)
 	(global_label "+1V2"
 		(shape output)
-		(at 92.71 166.37 0)
+		(at 214.63 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6294,7 +6246,7 @@
 		)
 		(uuid "d7656942-16d6-40f9-b4aa-75082f1c3115")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.2031 166.2906 0)
+			(at 222.1231 90.0906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8306,7 +8258,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "~"
 			(at 78.9687 170.7766 0)
 			(effects
 				(font
@@ -11137,7 +11089,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "100nF"
 			(at 208.0642 81.8766 0)
 			(effects
 				(font
@@ -11345,7 +11297,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100nF"
 			(at 86.36 95.25 0)
 			(effects
 				(font
@@ -12851,75 +12803,6 @@
 			(project "module"
 				(path "/1bd6d52b-770c-41d7-8859-8af3cd8465de/690f8109-73f4-43d8-86c5-282aaeaec683"
 					(reference "R348")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 205.74 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc9dc44b-2a50-48ef-8b18-6990941ca99a")
-		(property "Reference" "C34"
-			(at 208.0642 91.8015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1nF"
-			(at 208.0642 94.5766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 205.74 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "091fddcd-91b3-4478-b466-e988616daa44")
-		)
-		(pin "2"
-			(uuid "163b09aa-e127-4d7a-b92b-5a9c3f20bb20")
-		)
-		(instances
-			(project "module"
-				(path "/1bd6d52b-770c-41d7-8859-8af3cd8465de/690f8109-73f4-43d8-86c5-282aaeaec683"
-					(reference "C34")
 					(unit 1)
 				)
 			)
