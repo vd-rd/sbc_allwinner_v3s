@@ -11987,7 +11987,7 @@
 			(uuid "a6d4bcff-47e0-4ad2-827f-4d6fe559f3c1")
 		)
 		(instances
-			(project ""
+			(project "module"
 				(path "/be5594de-3f2c-4f50-9b5f-8272d138a20c/9546cd04-00fc-4f4e-96e6-36ef0ef6e918"
 					(reference "J901")
 					(unit 1)

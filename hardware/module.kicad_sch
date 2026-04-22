@@ -734,7 +734,7 @@
 		)
 		(uuid "cec625e8-72a3-430f-ac55-b33b8ed29a39")
 	)
-	(text "AXP209\n"
+	(text "AXP203"
 		(exclude_from_sim no)
 		(at 150.622 104.394 90)
 		(effects
